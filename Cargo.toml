@@ -1,9 +1,12 @@
 [package]
-name = "project"
-version = "0.1.0"
+name = "webo"
+version = "0.0.1"
 edition = "2021"
 
 [dependencies]
+chromiumoxide = "0.7.0"
+iced = "0.13.1"
+tokio = "1.40.0"
 
 [profile.release]
 strip = true
